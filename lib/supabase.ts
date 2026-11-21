@@ -1,3 +1,4 @@
+
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseUrl =
@@ -8,5 +9,11 @@ const supabaseAnonKey =
 
 export const supabase =
   supabaseUrl && supabaseAnonKey
-    ? createClient(supabaseUrl, supabaseAnonKey)
+    ? createClient(supabaseUrl, supabaseAnonKey, {
+        auth: {
+          persistSession: true,
+          autoRefreshToken: true,
+          detectSessionInUrl: true,
+        },
+      })
     : null;
