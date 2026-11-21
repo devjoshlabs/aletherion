@@ -117,7 +117,7 @@ export default async function Home() {
         <div className="contact-links">
           <a className="contact-link" href="mailto:godsonjosueguenole@gmail.com">✉ Email <span>↗</span></a>
           <a className="contact-link" href="https://wa.me/22899821930" target="_blank" rel="noopener noreferrer">◉ WhatsApp <span>↗</span></a>
-          <a className="contact-link" href="https://www.tiktok.com/@aletherion" target="_blank" rel="noopener noreferrer">TikTok <span>↗</span></a>
+          <a className="contact-link" href="https://www.tiktok.com/@_aletherion" target="_blank" rel="noopener noreferrer">TikTok <span>↗</span></a>
           <a className="contact-link" href="https://www.youtube.com/@aletherion" target="_blank" rel="noopener noreferrer">YouTube <span>↗</span></a>
         </div>
       </section>
